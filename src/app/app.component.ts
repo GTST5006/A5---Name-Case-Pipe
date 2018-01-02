@@ -1,3 +1,4 @@
+import { NameCasePipe } from './_pipes/name-case.pipe';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,9 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  tweet = { 
-    body: '...',
-    likesCount: 10,
-    isLiked: true
-  }
+  title: string; 
 }
